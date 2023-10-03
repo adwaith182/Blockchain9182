@@ -1,28 +1,31 @@
 {
-  "name": "crowdfunding",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/spandan114/Crowdfunding-DAPP.git"
+  "dependencies": {
+    "moment": "^2.29.2",
+    "next": "11.1.2",
+    "next-redux-wrapper": "^7.0.5",
+    "nprogress": "^0.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.8",
+    "react-toastify": "^8.2.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "web3": "^1.7.0"
   },
-  "author": "spandan joshi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/spandan114/Crowdfunding-DAPP/issues"
-  },
-  "homepage": "https://github.com/spandan114/Crowdfunding-DAPP#readme",
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.5",
-    "@nomiclabs/hardhat-waffle": "^2.0.3",
-    "chai": "^4.3.6",
-    "ethereum-waffle": "^3.4.4",
-    "ethers": "^5.6.2",
-    "hardhat": "^2.8.3"
-  },
-  "dependencies": {}
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
 }
