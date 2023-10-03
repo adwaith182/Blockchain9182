@@ -1,7 +1,5 @@
 # Crowd funding
 
-https://user-images.githubusercontent.com/55044734/164529677-27af29f2-96d6-4ce6-bb61-c1f0c63a3beb.mp4
-
 ### Project features :bulb:
 
 - [x] User can start a fundraising.
@@ -55,30 +53,6 @@ https://github.com/Thiru-Malai/Crowdfunding-DAPP/assets/73980589/f694a9ef-a035-4
     npm run dev
     ```
 - Connect account to  website
-
-
-### Web3.js 
-------------
-- [Load web3](https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#web3-eth)
-- [Connect with contract](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#web3-eth-contract)
-    ```
-    new web3.eth.Contract(jsonInterface[, address][, options])
-    ```
-- [Callback promises events](https://web3js.readthedocs.io/en/v1.2.11/callbacks-promises-events.html#callbacks-promises-events)
-    ```
-    .on('transactionHash', function(hash){ ... })
-    .on('error', function(error){ ... })
-    ```
-- [Subscribe to event](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#contract-events)
-    ```
-    contractName.events.EventName([options][, callback])
-    ```
-- [Fetch all data from contract event](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#getpastevents)
-    - <small> An array with the past event Objects, matching the given event name and filter.</small>
-
-    ```
-    contractName.getPastEvents(EventName[, options][, callback])
-    ```
 
 ### Hardhat commands
 ```shell
